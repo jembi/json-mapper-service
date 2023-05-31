@@ -1,0 +1,110 @@
+{
+    "metadata": {
+        "uuid": "637863fe-9750-4b70-914e-88203533bab8",
+        "version": "1",
+        "creationDate": "2022-05-09",
+        "category": "dhis-data-elements-metadata"
+    },
+    "reports": [
+        {
+            "reportName": "PECG Report",
+            "parameters": [
+                {
+                    "key": "ageGroupInYears",
+                    "ranges": [
+                        {
+                            "min": 0,
+                            "max": 1
+                        },
+                        {
+                            "min": 1,
+                            "max": 4
+                        }
+                    ]
+                },
+                {
+                    "key": "gender",
+                    "options": [
+                        "M",
+                        "F"
+                    ]
+                }
+            ],
+            "dataElements": [
+                {
+                    "dataElementName": "Number of old PLWHA on ARV who came for treatment in the month",
+                    "query": "SELECT PECG_Indicator2('#startDate#','#endDate#', #ageGroupInYears.min#, #ageGroupInYears.max#, 0, '#gender#')"
+                }
+            ],
+            "dhis2Mapping": {
+                "attributeOptionComboId": "",
+                "dataElements": [
+                    {
+                        "dataElementName": "Number of old PLWHA on ARV who came for treatment in the month",
+                        "disaggregations": [
+                            {
+                                "key": "gender",
+                                "index": 0
+                            },
+                            {
+                                "key": "ageGroupInYears",
+                                "index": 0
+                            }
+                        ],
+                        "dataSetId": "H4o9OYILo01",
+                        "dataElementId": "id322bGSlos",
+                        "categoryOptionComboId": "gb70qknJIuC"
+                    },
+                    {
+                        "dataElementName": "Number of old PLWHA on ARV who came for treatment in the month",
+                        "disaggregations": [
+                            {
+                                "key": "gender",
+                                "index": 0
+                            },
+                            {
+                                "key": "ageGroupInYears",
+                                "index": 1
+                            }
+                        ],
+                        "dataSetId": "H4o9OYILo01",
+                        "dataElementId": "id322bGSlos",
+                        "categoryOptionComboId": "T1lypchnuRD"
+                    },
+                    {
+                        "dataElementName": "Number of old PLWHA on ARV who came for treatment in the month",
+                        "disaggregations": [
+                            {
+                                "key": "gender",
+                                "index": 1
+                            },
+                            {
+                                "key": "ageGroupInYears",
+                                "index": 0
+                            }
+                        ],
+                        "dataSetId": "H4o9OYILo01",
+                        "dataElementId": "id322bGSlos",
+                        "categoryOptionComboId": "tGxlG3FxjO3"
+                    },
+                    {
+                        "dataElementName": "Number of old PLWHA on ARV who came for treatment in the month",
+                        "disaggregations": [
+                            {
+                                "key": "gender",
+                                "index": 1
+                            },
+                            {
+                                "key": "ageGroupInYears",
+                                "index": 1
+                            }
+                        ],
+                        "dataSetId": "H4o9OYILo01",
+                        "dataElementId": "id322bGSlos",
+                        "categoryOptionComboId": "a9ykyw8CHVX"
+                    }
+                ]
+            }
+        }
+    ]
+}

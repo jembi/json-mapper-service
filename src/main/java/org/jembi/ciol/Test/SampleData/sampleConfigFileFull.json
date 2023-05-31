@@ -1,0 +1,1884 @@
+{
+  "metadata": {
+    "uuid": "637863fe-9750-4b70-914e-88203533bab8",
+    "version": "1",
+    "creationDate": "2022-05-09",
+    "category": "dhis-data-elements-metadata"
+  },
+  "reports": [
+    {
+      "reportName": "PECG Report",
+      "parameters": [
+        {
+          "key": "ageGroupInYears",
+          "ranges": [
+            {
+              "min": 0,
+              "max": 1
+            },
+            {
+              "min": 1,
+              "max": 3
+            },
+            {
+              "min": 4,
+              "max": 9
+            },
+            {
+              "min": 10,
+              "max": 14
+            },
+            {
+              "min": 15,
+              "max": 19
+            },
+            {
+              "min": 20,
+              "max": 24
+            },
+            {
+              "min": 25,
+              "max": 49
+            },
+            {
+              "min": 50,
+              "max": 200
+            }
+          ]
+        },
+        {
+          "key": "gender",
+          "options": ["H", "F"]
+        }
+      ],
+      "dataElements": [
+        {
+          "dataElementName": "Nombre total des anciennes PVVIH sous ARV ayant reçu le traitement du mois",
+          "query": "SELECT PECG_Indicator2('#startDate#','#endDate#', #ageGroupInYears.min#, #ageGroupInYears.max#, 0, '#gender#')"
+        },
+        {
+          "dataElementName": "Nombre de nouvelles PVVIH mises sous ARV ayant reçu le traitement du mois",
+          "query": "SELECT PECG_Indicator3('#startDate#','#endDate#', #ageGroupInYears.min#, #ageGroupInYears.max#, 0, '#gender#')"
+        },
+        {
+          "dataElementName": "Nombre total de PVVIH sous ARV au cours du mois : File active",
+          "query": "SELECT PECG_Indicator4('#startDate#','#endDate#', #ageGroupInYears.min#, #ageGroupInYears.max#, 0, '#gender#')"
+        },
+        {
+          "dataElementName": "Nombre de PVVIH chez qui la tuberculose a été investiguée et documentée",
+          "query": "SELECT PECG_Indicator10('#startDate#','#endDate#', #ageGroupInYears.min#, #ageGroupInYears.max#, 0, '#gender#')"
+        },
+        {
+          "dataElementName": "Nombre de PVVIH qui ne sont pas venus chercher le traitement dans le mois",
+          "query": "SELECT PECG_Indicator17('#startDate#','#endDate#', #ageGroupInYears.min#, #ageGroupInYears.max#, 0, '#gender#')"
+        },
+        {
+          "dataElementName": "Aides ponctuelles (PVVIH non suivi par le CTA/UPEC mais venues chercher le traitement au cours du mois)/dépannage",
+          "query": "SELECT PECG_Indicator19('#startDate#','#endDate#', #ageGroupInYears.min#, #ageGroupInYears.max#, 0, '#gender#')"
+        },
+        {
+          "dataElementName": "Nombres de PVVIH ayant reçu le la prophylaxie INH au cours du mois",
+          "query": "SELECT PECG_Indicator20('#startDate#','#endDate#', #ageGroupInYears.min#, #ageGroupInYears.max#, 0, '#gender#')"
+        }
+      ],
+      "dhis2Mapping": {
+        "attributeOptionComboId": "",
+        "dataElements": [
+          {
+            "dataElementName": "Nombre total des anciennes PVVIH sous ARV ayant reçu le traitement du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 0
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "isLURHiTCtJ",
+            "categoryOptionComboId": "Mb9pyzlseXS"
+          },
+          {
+            "dataElementName": "Nombre total des anciennes PVVIH sous ARV ayant reçu le traitement du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 0
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "isLURHiTCtJ",
+            "categoryOptionComboId": "xZfdBYofqoI"
+          },
+          {
+            "dataElementName": "Nombre total des anciennes PVVIH sous ARV ayant reçu le traitement du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 1
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "isLURHiTCtJ",
+            "categoryOptionComboId": "reTqIB1CliX"
+          },
+          {
+            "dataElementName": "Nombre total des anciennes PVVIH sous ARV ayant reçu le traitement du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 1
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "isLURHiTCtJ",
+            "categoryOptionComboId": "YInFhfuB5wr"
+          },
+          {
+            "dataElementName": "Nombre total des anciennes PVVIH sous ARV ayant reçu le traitement du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 2
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "isLURHiTCtJ",
+            "categoryOptionComboId": "Zcrp9UYF2Tz"
+          },
+          {
+            "dataElementName": "Nombre total des anciennes PVVIH sous ARV ayant reçu le traitement du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 2
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "isLURHiTCtJ",
+            "categoryOptionComboId": "Ocjqge86iI3"
+          },
+          {
+            "dataElementName": "Nombre total des anciennes PVVIH sous ARV ayant reçu le traitement du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 3
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "isLURHiTCtJ",
+            "categoryOptionComboId": "scJQuA9uwmB"
+          },
+          {
+            "dataElementName": "Nombre total des anciennes PVVIH sous ARV ayant reçu le traitement du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 3
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "isLURHiTCtJ",
+            "categoryOptionComboId": "Mt5L45aCx2R"
+          },
+          {
+            "dataElementName": "Nombre total des anciennes PVVIH sous ARV ayant reçu le traitement du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 4
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "isLURHiTCtJ",
+            "categoryOptionComboId": "AQZObcq54BR"
+          },
+          {
+            "dataElementName": "Nombre total des anciennes PVVIH sous ARV ayant reçu le traitement du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 4
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "isLURHiTCtJ",
+            "categoryOptionComboId": "M8CrfKgjFyG"
+          },
+          {
+            "dataElementName": "Nombre total des anciennes PVVIH sous ARV ayant reçu le traitement du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 5
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "isLURHiTCtJ",
+            "categoryOptionComboId": "nzBXDsLgEGt"
+          },
+          {
+            "dataElementName": "Nombre total des anciennes PVVIH sous ARV ayant reçu le traitement du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 5
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "isLURHiTCtJ",
+            "categoryOptionComboId": "rFoQ9P6L6SZ"
+          },
+          {
+            "dataElementName": "Nombre total des anciennes PVVIH sous ARV ayant reçu le traitement du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 6
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "isLURHiTCtJ",
+            "categoryOptionComboId": "iwvlAu9RPyw"
+          },
+          {
+            "dataElementName": "Nombre total des anciennes PVVIH sous ARV ayant reçu le traitement du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 6
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "isLURHiTCtJ",
+            "categoryOptionComboId": "LFSGdYPx7qK"
+          },
+          {
+            "dataElementName": "Nombre total des anciennes PVVIH sous ARV ayant reçu le traitement du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 7
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "isLURHiTCtJ",
+            "categoryOptionComboId": "OXvWWQzMVN5"
+          },
+          {
+            "dataElementName": "Nombre total des anciennes PVVIH sous ARV ayant reçu le traitement du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 7
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "isLURHiTCtJ",
+            "categoryOptionComboId": "RuXcz29GRdq"
+          },
+          {
+            "dataElementName": "Nombre de nouvelles PVVIH mises sous ARV ayant reçu le traitement du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 0
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "zMBtXkHprKD",
+            "categoryOptionComboId": "Mb9pyzlseXS"
+          },
+          {
+            "dataElementName": "Nombre de nouvelles PVVIH mises sous ARV ayant reçu le traitement du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 0
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "zMBtXkHprKD",
+            "categoryOptionComboId": "xZfdBYofqoI"
+          },
+          {
+            "dataElementName": "Nombre de nouvelles PVVIH mises sous ARV ayant reçu le traitement du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 1
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "zMBtXkHprKD",
+            "categoryOptionComboId": "reTqIB1CliX"
+          },
+          {
+            "dataElementName": "Nombre de nouvelles PVVIH mises sous ARV ayant reçu le traitement du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 1
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "zMBtXkHprKD",
+            "categoryOptionComboId": "YInFhfuB5wr"
+          },
+          {
+            "dataElementName": "Nombre de nouvelles PVVIH mises sous ARV ayant reçu le traitement du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 2
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "zMBtXkHprKD",
+            "categoryOptionComboId": "Zcrp9UYF2Tz"
+          },
+          {
+            "dataElementName": "Nombre de nouvelles PVVIH mises sous ARV ayant reçu le traitement du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 2
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "zMBtXkHprKD",
+            "categoryOptionComboId": "Ocjqge86iI3"
+          },
+          {
+            "dataElementName": "Nombre de nouvelles PVVIH mises sous ARV ayant reçu le traitement du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 3
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "zMBtXkHprKD",
+            "categoryOptionComboId": "scJQuA9uwmB"
+          },
+          {
+            "dataElementName": "Nombre de nouvelles PVVIH mises sous ARV ayant reçu le traitement du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 3
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "zMBtXkHprKD",
+            "categoryOptionComboId": "Mt5L45aCx2R"
+          },
+          {
+            "dataElementName": "Nombre de nouvelles PVVIH mises sous ARV ayant reçu le traitement du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 4
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "zMBtXkHprKD",
+            "categoryOptionComboId": "AQZObcq54BR"
+          },
+          {
+            "dataElementName": "Nombre de nouvelles PVVIH mises sous ARV ayant reçu le traitement du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 4
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "zMBtXkHprKD",
+            "categoryOptionComboId": "M8CrfKgjFyG"
+          },
+          {
+            "dataElementName": "Nombre de nouvelles PVVIH mises sous ARV ayant reçu le traitement du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 5
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "zMBtXkHprKD",
+            "categoryOptionComboId": "nzBXDsLgEGt"
+          },
+          {
+            "dataElementName": "Nombre de nouvelles PVVIH mises sous ARV ayant reçu le traitement du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 5
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "zMBtXkHprKD",
+            "categoryOptionComboId": "rFoQ9P6L6SZ"
+          },
+          {
+            "dataElementName": "Nombre de nouvelles PVVIH mises sous ARV ayant reçu le traitement du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 6
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "zMBtXkHprKD",
+            "categoryOptionComboId": "iwvlAu9RPyw"
+          },
+          {
+            "dataElementName": "Nombre de nouvelles PVVIH mises sous ARV ayant reçu le traitement du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 6
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "zMBtXkHprKD",
+            "categoryOptionComboId": "LFSGdYPx7qK"
+          },
+          {
+            "dataElementName": "Nombre de nouvelles PVVIH mises sous ARV ayant reçu le traitement du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 7
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "zMBtXkHprKD",
+            "categoryOptionComboId": "OXvWWQzMVN5"
+          },
+          {
+            "dataElementName": "Nombre de nouvelles PVVIH mises sous ARV ayant reçu le traitement du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 7
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "zMBtXkHprKD",
+            "categoryOptionComboId": "RuXcz29GRdq"
+          },
+          {
+            "dataElementName": "Nombre total de PVVIH sous ARV au cours du mois : File active",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 0
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "cCxSkWMCAnv",
+            "categoryOptionComboId": "Mb9pyzlseXS"
+          },
+          {
+            "dataElementName": "Nombre total de PVVIH sous ARV au cours du mois : File active",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 0
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "cCxSkWMCAnv",
+            "categoryOptionComboId": "xZfdBYofqoI"
+          },
+          {
+            "dataElementName": "Nombre total de PVVIH sous ARV au cours du mois : File active",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 1
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "cCxSkWMCAnv",
+            "categoryOptionComboId": "reTqIB1CliX"
+          },
+          {
+            "dataElementName": "Nombre total de PVVIH sous ARV au cours du mois : File active",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 1
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "cCxSkWMCAnv",
+            "categoryOptionComboId": "YInFhfuB5wr"
+          },
+          {
+            "dataElementName": "Nombre total de PVVIH sous ARV au cours du mois : File active",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 2
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "cCxSkWMCAnv",
+            "categoryOptionComboId": "Zcrp9UYF2Tz"
+          },
+          {
+            "dataElementName": "Nombre total de PVVIH sous ARV au cours du mois : File active",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 2
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "cCxSkWMCAnv",
+            "categoryOptionComboId": "Ocjqge86iI3"
+          },
+          {
+            "dataElementName": "Nombre total de PVVIH sous ARV au cours du mois : File active",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 3
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "cCxSkWMCAnv",
+            "categoryOptionComboId": "scJQuA9uwmB"
+          },
+          {
+            "dataElementName": "Nombre total de PVVIH sous ARV au cours du mois : File active",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 3
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "cCxSkWMCAnv",
+            "categoryOptionComboId": "Mt5L45aCx2R"
+          },
+          {
+            "dataElementName": "Nombre total de PVVIH sous ARV au cours du mois : File active",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 4
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "cCxSkWMCAnv",
+            "categoryOptionComboId": "AQZObcq54BR"
+          },
+          {
+            "dataElementName": "Nombre total de PVVIH sous ARV au cours du mois : File active",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 4
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "cCxSkWMCAnv",
+            "categoryOptionComboId": "M8CrfKgjFyG"
+          },
+          {
+            "dataElementName": "Nombre total de PVVIH sous ARV au cours du mois : File active",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 5
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "cCxSkWMCAnv",
+            "categoryOptionComboId": "nzBXDsLgEGt"
+          },
+          {
+            "dataElementName": "Nombre total de PVVIH sous ARV au cours du mois : File active",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 5
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "cCxSkWMCAnv",
+            "categoryOptionComboId": "rFoQ9P6L6SZ"
+          },
+          {
+            "dataElementName": "Nombre total de PVVIH sous ARV au cours du mois : File active",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 6
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "cCxSkWMCAnv",
+            "categoryOptionComboId": "iwvlAu9RPyw"
+          },
+          {
+            "dataElementName": "Nombre total de PVVIH sous ARV au cours du mois : File active",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 6
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "cCxSkWMCAnv",
+            "categoryOptionComboId": "LFSGdYPx7qK"
+          },
+          {
+            "dataElementName": "Nombre total de PVVIH sous ARV au cours du mois : File active",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 7
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "cCxSkWMCAnv",
+            "categoryOptionComboId": "OXvWWQzMVN5"
+          },
+          {
+            "dataElementName": "Nombre total de PVVIH sous ARV au cours du mois : File active",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 7
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "cCxSkWMCAnv",
+            "categoryOptionComboId": "RuXcz29GRdq"
+          },
+          {
+            "dataElementName": "Nombre de PVVIH chez qui la tuberculose a été investiguée et documentée",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 0
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "MVDqGEIlBzJ",
+            "categoryOptionComboId": "Mb9pyzlseXS"
+          },
+          {
+            "dataElementName": "Nombre de PVVIH chez qui la tuberculose a été investiguée et documentée",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 0
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "MVDqGEIlBzJ",
+            "categoryOptionComboId": "xZfdBYofqoI"
+          },
+          {
+            "dataElementName": "Nombre de PVVIH chez qui la tuberculose a été investiguée et documentée",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 1
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "MVDqGEIlBzJ",
+            "categoryOptionComboId": "reTqIB1CliX"
+          },
+          {
+            "dataElementName": "Nombre de PVVIH chez qui la tuberculose a été investiguée et documentée",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 1
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "MVDqGEIlBzJ",
+            "categoryOptionComboId": "YInFhfuB5wr"
+          },
+          {
+            "dataElementName": "Nombre de PVVIH chez qui la tuberculose a été investiguée et documentée",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 2
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "MVDqGEIlBzJ",
+            "categoryOptionComboId": "Zcrp9UYF2Tz"
+          },
+          {
+            "dataElementName": "Nombre de PVVIH chez qui la tuberculose a été investiguée et documentée",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 2
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "MVDqGEIlBzJ",
+            "categoryOptionComboId": "Ocjqge86iI3"
+          },
+          {
+            "dataElementName": "Nombre de PVVIH chez qui la tuberculose a été investiguée et documentée",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 3
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "MVDqGEIlBzJ",
+            "categoryOptionComboId": "scJQuA9uwmB"
+          },
+          {
+            "dataElementName": "Nombre de PVVIH chez qui la tuberculose a été investiguée et documentée",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 3
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "MVDqGEIlBzJ",
+            "categoryOptionComboId": "Mt5L45aCx2R"
+          },
+          {
+            "dataElementName": "Nombre de PVVIH chez qui la tuberculose a été investiguée et documentée",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 4
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "MVDqGEIlBzJ",
+            "categoryOptionComboId": "AQZObcq54BR"
+          },
+          {
+            "dataElementName": "Nombre de PVVIH chez qui la tuberculose a été investiguée et documentée",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 4
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "MVDqGEIlBzJ",
+            "categoryOptionComboId": "M8CrfKgjFyG"
+          },
+          {
+            "dataElementName": "Nombre de PVVIH chez qui la tuberculose a été investiguée et documentée",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 5
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "MVDqGEIlBzJ",
+            "categoryOptionComboId": "nzBXDsLgEGt"
+          },
+          {
+            "dataElementName": "Nombre de PVVIH chez qui la tuberculose a été investiguée et documentée",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 5
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "MVDqGEIlBzJ",
+            "categoryOptionComboId": "rFoQ9P6L6SZ"
+          },
+          {
+            "dataElementName": "Nombre de PVVIH chez qui la tuberculose a été investiguée et documentée",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 6
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "MVDqGEIlBzJ",
+            "categoryOptionComboId": "iwvlAu9RPyw"
+          },
+          {
+            "dataElementName": "Nombre de PVVIH chez qui la tuberculose a été investiguée et documentée",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 6
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "MVDqGEIlBzJ",
+            "categoryOptionComboId": "LFSGdYPx7qK"
+          },
+          {
+            "dataElementName": "Nombre de PVVIH chez qui la tuberculose a été investiguée et documentée",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 7
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "MVDqGEIlBzJ",
+            "categoryOptionComboId": "OXvWWQzMVN5"
+          },
+          {
+            "dataElementName": "Nombre de PVVIH chez qui la tuberculose a été investiguée et documentée",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 7
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "MVDqGEIlBzJ",
+            "categoryOptionComboId": "RuXcz29GRdq"
+          },
+          {
+            "dataElementName": "Nombre de PVVIH qui ne sont pas venus chercher le traitement dans le mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 0
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "cnjf05n0Tyq",
+            "categoryOptionComboId": "Mb9pyzlseXS"
+          },
+          {
+            "dataElementName": "Nombre de PVVIH qui ne sont pas venus chercher le traitement dans le mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 0
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "cnjf05n0Tyq",
+            "categoryOptionComboId": "xZfdBYofqoI"
+          },
+          {
+            "dataElementName": "Nombre de PVVIH qui ne sont pas venus chercher le traitement dans le mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 1
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "cnjf05n0Tyq",
+            "categoryOptionComboId": "reTqIB1CliX"
+          },
+          {
+            "dataElementName": "Nombre de PVVIH qui ne sont pas venus chercher le traitement dans le mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 1
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "cnjf05n0Tyq",
+            "categoryOptionComboId": "YInFhfuB5wr"
+          },
+          {
+            "dataElementName": "Nombre de PVVIH qui ne sont pas venus chercher le traitement dans le mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 2
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "cnjf05n0Tyq",
+            "categoryOptionComboId": "Zcrp9UYF2Tz"
+          },
+          {
+            "dataElementName": "Nombre de PVVIH qui ne sont pas venus chercher le traitement dans le mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 2
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "cnjf05n0Tyq",
+            "categoryOptionComboId": "Ocjqge86iI3"
+          },
+          {
+            "dataElementName": "Nombre de PVVIH qui ne sont pas venus chercher le traitement dans le mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 3
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "cnjf05n0Tyq",
+            "categoryOptionComboId": "scJQuA9uwmB"
+          },
+          {
+            "dataElementName": "Nombre de PVVIH qui ne sont pas venus chercher le traitement dans le mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 3
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "cnjf05n0Tyq",
+            "categoryOptionComboId": "Mt5L45aCx2R"
+          },
+          {
+            "dataElementName": "Nombre de PVVIH qui ne sont pas venus chercher le traitement dans le mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 4
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "cnjf05n0Tyq",
+            "categoryOptionComboId": "AQZObcq54BR"
+          },
+          {
+            "dataElementName": "Nombre de PVVIH qui ne sont pas venus chercher le traitement dans le mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 4
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "cnjf05n0Tyq",
+            "categoryOptionComboId": "M8CrfKgjFyG"
+          },
+          {
+            "dataElementName": "Nombre de PVVIH qui ne sont pas venus chercher le traitement dans le mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 5
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "cnjf05n0Tyq",
+            "categoryOptionComboId": "nzBXDsLgEGt"
+          },
+          {
+            "dataElementName": "Nombre de PVVIH qui ne sont pas venus chercher le traitement dans le mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 5
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "cnjf05n0Tyq",
+            "categoryOptionComboId": "rFoQ9P6L6SZ"
+          },
+          {
+            "dataElementName": "Nombre de PVVIH qui ne sont pas venus chercher le traitement dans le mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 6
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "cnjf05n0Tyq",
+            "categoryOptionComboId": "iwvlAu9RPyw"
+          },
+          {
+            "dataElementName": "Nombre de PVVIH qui ne sont pas venus chercher le traitement dans le mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 6
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "cnjf05n0Tyq",
+            "categoryOptionComboId": "LFSGdYPx7qK"
+          },
+          {
+            "dataElementName": "Nombre de PVVIH qui ne sont pas venus chercher le traitement dans le mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 7
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "cnjf05n0Tyq",
+            "categoryOptionComboId": "OXvWWQzMVN5"
+          },
+          {
+            "dataElementName": "Nombre de PVVIH qui ne sont pas venus chercher le traitement dans le mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 7
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "cnjf05n0Tyq",
+            "categoryOptionComboId": "RuXcz29GRdq"
+          },
+
+          {
+            "dataElementName": "Aides ponctuelles (PVVIH non suivi par le CTA/UPEC mais venues chercher le traitement au cours du mois)/dépannage",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 0
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "QI0Vpdg9Ig1",
+            "categoryOptionComboId": "Mb9pyzlseXS"
+          },
+          {
+            "dataElementName": "Aides ponctuelles (PVVIH non suivi par le CTA/UPEC mais venues chercher le traitement au cours du mois)/dépannage",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 0
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "QI0Vpdg9Ig1",
+            "categoryOptionComboId": "xZfdBYofqoI"
+          },
+          {
+            "dataElementName": "Aides ponctuelles (PVVIH non suivi par le CTA/UPEC mais venues chercher le traitement au cours du mois)/dépannage",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 1
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "QI0Vpdg9Ig1",
+            "categoryOptionComboId": "reTqIB1CliX"
+          },
+          {
+            "dataElementName": "Aides ponctuelles (PVVIH non suivi par le CTA/UPEC mais venues chercher le traitement au cours du mois)/dépannage",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 1
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "QI0Vpdg9Ig1",
+            "categoryOptionComboId": "YInFhfuB5wr"
+          },
+          {
+            "dataElementName": "Aides ponctuelles (PVVIH non suivi par le CTA/UPEC mais venues chercher le traitement au cours du mois)/dépannage",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 2
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "QI0Vpdg9Ig1",
+            "categoryOptionComboId": "Zcrp9UYF2Tz"
+          },
+          {
+            "dataElementName": "Aides ponctuelles (PVVIH non suivi par le CTA/UPEC mais venues chercher le traitement au cours du mois)/dépannage",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 2
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "QI0Vpdg9Ig1",
+            "categoryOptionComboId": "Ocjqge86iI3"
+          },
+          {
+            "dataElementName": "Aides ponctuelles (PVVIH non suivi par le CTA/UPEC mais venues chercher le traitement au cours du mois)/dépannage",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 3
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "QI0Vpdg9Ig1",
+            "categoryOptionComboId": "scJQuA9uwmB"
+          },
+          {
+            "dataElementName": "Aides ponctuelles (PVVIH non suivi par le CTA/UPEC mais venues chercher le traitement au cours du mois)/dépannage",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 3
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "QI0Vpdg9Ig1",
+            "categoryOptionComboId": "Mt5L45aCx2R"
+          },
+          {
+            "dataElementName": "Aides ponctuelles (PVVIH non suivi par le CTA/UPEC mais venues chercher le traitement au cours du mois)/dépannage",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 4
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "QI0Vpdg9Ig1",
+            "categoryOptionComboId": "AQZObcq54BR"
+          },
+          {
+            "dataElementName": "Aides ponctuelles (PVVIH non suivi par le CTA/UPEC mais venues chercher le traitement au cours du mois)/dépannage",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 4
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "QI0Vpdg9Ig1",
+            "categoryOptionComboId": "M8CrfKgjFyG"
+          },
+          {
+            "dataElementName": "Aides ponctuelles (PVVIH non suivi par le CTA/UPEC mais venues chercher le traitement au cours du mois)/dépannage",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 5
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "QI0Vpdg9Ig1",
+            "categoryOptionComboId": "nzBXDsLgEGt"
+          },
+          {
+            "dataElementName": "Aides ponctuelles (PVVIH non suivi par le CTA/UPEC mais venues chercher le traitement au cours du mois)/dépannage",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 5
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "QI0Vpdg9Ig1",
+            "categoryOptionComboId": "rFoQ9P6L6SZ"
+          },
+          {
+            "dataElementName": "Aides ponctuelles (PVVIH non suivi par le CTA/UPEC mais venues chercher le traitement au cours du mois)/dépannage",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 6
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "QI0Vpdg9Ig1",
+            "categoryOptionComboId": "iwvlAu9RPyw"
+          },
+          {
+            "dataElementName": "Aides ponctuelles (PVVIH non suivi par le CTA/UPEC mais venues chercher le traitement au cours du mois)/dépannage",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 6
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "QI0Vpdg9Ig1",
+            "categoryOptionComboId": "LFSGdYPx7qK"
+          },
+          {
+            "dataElementName": "Aides ponctuelles (PVVIH non suivi par le CTA/UPEC mais venues chercher le traitement au cours du mois)/dépannage",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 7
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "QI0Vpdg9Ig1",
+            "categoryOptionComboId": "OXvWWQzMVN5"
+          },
+          {
+            "dataElementName": "Aides ponctuelles (PVVIH non suivi par le CTA/UPEC mais venues chercher le traitement au cours du mois)/dépannage",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 7
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "QI0Vpdg9Ig1",
+            "categoryOptionComboId": "RuXcz29GRdq"
+          },
+          {
+            "dataElementName": "Nombres de PVVIH ayant reçu le la prophylaxie INH au cours du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 0
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "Vnzl3e1iJsj",
+            "categoryOptionComboId": "Mb9pyzlseXS"
+          },
+          {
+            "dataElementName": "Nombres de PVVIH ayant reçu le la prophylaxie INH au cours du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 0
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "Vnzl3e1iJsj",
+            "categoryOptionComboId": "xZfdBYofqoI"
+          },
+          {
+            "dataElementName": "Nombres de PVVIH ayant reçu le la prophylaxie INH au cours du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 1
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "Vnzl3e1iJsj",
+            "categoryOptionComboId": "reTqIB1CliX"
+          },
+          {
+            "dataElementName": "Nombres de PVVIH ayant reçu le la prophylaxie INH au cours du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 1
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "Vnzl3e1iJsj",
+            "categoryOptionComboId": "YInFhfuB5wr"
+          },
+          {
+            "dataElementName": "Nombres de PVVIH ayant reçu le la prophylaxie INH au cours du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 2
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "Vnzl3e1iJsj",
+            "categoryOptionComboId": "Zcrp9UYF2Tz"
+          },
+          {
+            "dataElementName": "Nombres de PVVIH ayant reçu le la prophylaxie INH au cours du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 2
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "Vnzl3e1iJsj",
+            "categoryOptionComboId": "Ocjqge86iI3"
+          },
+          {
+            "dataElementName": "Nombres de PVVIH ayant reçu le la prophylaxie INH au cours du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 3
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "Vnzl3e1iJsj",
+            "categoryOptionComboId": "scJQuA9uwmB"
+          },
+          {
+            "dataElementName": "Nombres de PVVIH ayant reçu le la prophylaxie INH au cours du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 3
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "Vnzl3e1iJsj",
+            "categoryOptionComboId": "Mt5L45aCx2R"
+          },
+          {
+            "dataElementName": "Nombres de PVVIH ayant reçu le la prophylaxie INH au cours du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 4
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "Vnzl3e1iJsj",
+            "categoryOptionComboId": "AQZObcq54BR"
+          },
+          {
+            "dataElementName": "Nombres de PVVIH ayant reçu le la prophylaxie INH au cours du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 4
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "Vnzl3e1iJsj",
+            "categoryOptionComboId": "M8CrfKgjFyG"
+          },
+          {
+            "dataElementName": "Nombres de PVVIH ayant reçu le la prophylaxie INH au cours du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 5
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "Vnzl3e1iJsj",
+            "categoryOptionComboId": "nzBXDsLgEGt"
+          },
+          {
+            "dataElementName": "Nombres de PVVIH ayant reçu le la prophylaxie INH au cours du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 5
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "Vnzl3e1iJsj",
+            "categoryOptionComboId": "rFoQ9P6L6SZ"
+          },
+          {
+            "dataElementName": "Nombres de PVVIH ayant reçu le la prophylaxie INH au cours du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 6
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "Vnzl3e1iJsj",
+            "categoryOptionComboId": "iwvlAu9RPyw"
+          },
+          {
+            "dataElementName": "Nombres de PVVIH ayant reçu le la prophylaxie INH au cours du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 6
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "Vnzl3e1iJsj",
+            "categoryOptionComboId": "LFSGdYPx7qK"
+          },
+          {
+            "dataElementName": "Nombres de PVVIH ayant reçu le la prophylaxie INH au cours du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 0
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 7
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "Vnzl3e1iJsj",
+            "categoryOptionComboId": "OXvWWQzMVN5"
+          },
+          {
+            "dataElementName": "Nombres de PVVIH ayant reçu le la prophylaxie INH au cours du mois",
+            "disaggregations": [
+              {
+                "key": "gender",
+                "index": 1
+              },
+              {
+                "key": "ageGroupInYears",
+                "index": 7
+              }
+            ],
+            "dataSetId": "H4o9OYILo01",
+            "dataElementId": "Vnzl3e1iJsj",
+            "categoryOptionComboId": "RuXcz29GRdq"
+          }
+        ]
+      }
+    }
+  ]
+}

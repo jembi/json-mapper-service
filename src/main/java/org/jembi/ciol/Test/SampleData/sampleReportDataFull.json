@@ -1,0 +1,1499 @@
+{
+    "metadataVersion": "1",
+    "period": "202206",
+    "orgUnitId": "tB4uKoyNGre",
+    "reportName": "PECG Report",
+    "dataElements": [
+        {
+            "dataElementName": "Nombre total des anciennes PVVIH sous ARV ayant reçu le traitement du mois",
+            "values": [
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 0
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 0
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 1
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 1
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 1
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 2
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 2
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 3
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 3
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 4
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 4
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 5
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 5
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 6
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 6
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 2
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 7
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 7
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "dataElementName": "Nombre de nouvelles PVVIH mises sous ARV ayant reçu le traitement du mois",
+            "values": [
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 0
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 0
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 1
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 1
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 2
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 2
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 3
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 3
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 4
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 4
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 5
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 5
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 6
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 6
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 7
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 7
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "dataElementName": "Nombre total de PVVIH sous ARV au cours du mois : File active",
+            "values": [
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 0
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 0
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 1
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 1
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 1
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 2
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 2
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 3
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 3
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 4
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 4
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 5
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 5
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 6
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 6
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 2
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 7
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 7
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "dataElementName": "Nombre de PVVIH chez qui la tuberculose a été investiguée et documentée",
+            "values": [
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 0
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 0
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 1
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 1
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 2
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 2
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 3
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 3
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 4
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 4
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 5
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 5
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 6
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 6
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 7
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 7
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "dataElementName": "Nombre de PVVIH qui ne sont pas venus chercher le traitement dans le mois",
+            "values": [
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 0
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 0
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 1
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 1
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 2
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 2
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 3
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 3
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 4
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 4
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 5
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 5
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 6
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 6
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 4
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 7
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 7
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "dataElementName": "Aides ponctuelles (PVVIH non suivi par le CTA/UPEC mais venues chercher le traitement au cours du mois)/dépannage",
+            "values": [
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 0
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 0
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 1
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 1
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 2
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 2
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 3
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 3
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 4
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 4
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 5
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 5
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 6
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 6
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 7
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 7
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "dataElementName": "Nombres de PVVIH ayant reçu le la prophylaxie INH au cours du mois",
+            "values": [
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 0
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 0
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 1
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 1
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 2
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 2
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 3
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 3
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 4
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 4
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 5
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 5
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 6
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 6
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 7
+                        },
+                        {
+                            "key": "gender",
+                            "index": 0
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 7
+                        },
+                        {
+                            "key": "gender",
+                            "index": 1
+                        }
+                    ],
+                    "value": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "metadataVersion": "1",
+    "period": "202205",
+    "orgUnitId": "SLU03042",
+    "reportName": "PECG Report",
+    "dataElements": [
+        {
+            "dataElementName": "Number of old PLWHA on ARV who came for treatment in the month",
+            "values": [
+                {
+                    "disaggregations": [
+                        {
+                            "key": "gender",
+                            "index": 0
+                        },
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 0
+                        }
+                    ],
+                    "value": 11
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "gender",
+                            "index": 1
+                        },
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 0
+                        }
+                    ],
+                    "value": 13
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "gender",
+                            "index": 0
+                        },
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 1
+                        }
+                    ],
+                    "value": 17
+                },
+                {
+                    "disaggregations": [
+                        {
+                            "key": "gender",
+                            "index": 1
+                        },
+                        {
+                            "key": "ageGroupInYears",
+                            "index": 1
+                        }
+                    ],
+                    "value": 19
+                }
+            ]
+        }
+    ]
+}
